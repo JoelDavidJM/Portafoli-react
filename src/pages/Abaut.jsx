@@ -10,7 +10,7 @@ const Abaut = () => {
     <div className="aboutMe_div" id="aboutMe">
       <section id="aboutMe" className="section">
       <h2 className="section__h2" >{t("ABAUTME")}</h2>
-      <p className="section__p">
+      <p className="section__p-1">
       {t("DESCRIPTION")}
       </p>
 
