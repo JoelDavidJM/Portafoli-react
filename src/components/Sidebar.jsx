@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import './style/sidebar.css'
 import ReactSwitch from 'react-switch'
 import { useThemeContext } from '../contect/ThemaContext';
+import Photo from '../../public/phtotoOfFace.png'
 
 const Sidebar = ({children}) => {
 
@@ -62,7 +63,7 @@ const Sidebar = ({children}) => {
     <div id={contextTheme} className='container'>
         <div style={{width: isOpen ? "10em" : "3em"}}className="sidebar sidebar1"  >
           <div className="top_section">
-            <img style={{display: isOpen ? "block" : "none"}} className="logo" src="/public/phtotoOfFace.png" alt="" />
+            <img style={{display: isOpen ? "block" : "none"}} className="logo" src={Photo} alt="" />
             {/* <h1 style={{display: isOpen ? "block" : "none"}} className="logo">Logo</h1> */}
             <div style={{marginLeft: isOpen ? "20px" : "0px"}} id={contextTheme} className="bars">
               <FaBars onClick={toggle}/>

@@ -2,6 +2,7 @@ import React from 'react';
 import './style/dashborad.css';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import Español from '../../public/Currículum Vitae Cv Español (1).pdf'
 
 const Bubbles = () => {
   const {t} = useTranslation()
@@ -45,7 +46,7 @@ const Dashboard = () => {
         <a 
           className="div__a" 
           download 
-          href="/public/Currículum Vitae Cv Español (1).pdf" 
+          href={Español} 
           data-translate-es="Descargar CV" 
           data-translate-en="Download CV"
           id="downloadCV"
