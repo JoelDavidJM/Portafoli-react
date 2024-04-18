@@ -1,6 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import './style/slider.css'
 import { useTranslation } from 'react-i18next';
+import Clima from '../../public/clima.png'
+import Fortuna from '../../public/fortuna.png'
+import Hotel from '../../public/hotelApp.png'
+import Pokedex from '../../public/pokedex.png'
+import RickYMorty from '../../public/rickYmorty.png'
+import Users from '../../public/userCrud.png'
 
 const Comment = () => {
 
@@ -73,7 +79,7 @@ const Comment = () => {
     <div className="slider">
     <div  className="list">
         <div className="item active">
-            <img src="/public/clima.png" alt="" /> 
+            <img src={Clima} alt="" /> 
             <div className="content">
                 <button className="btn__proyect"><a href="https://tiempo-climatico.onrender.com" className='link__container'>{t("LINK6")}</a></button>
                 <h2>{t("TITLETIME")}</h2>
@@ -81,7 +87,7 @@ const Comment = () => {
             </div>
         </div>
         <div className="item">
-            <img src="/public/fortuna.png" alt="" />
+            <img src={Fortuna} alt="" />
             <div className="content">
             <button className="btn__proyect"><a href="https://proyecto-galleta.onrender.com" className='link__container'>{t("LINK1")}</a></button>
                 <h2>{t("TITLELUCK")}</h2>
@@ -89,7 +95,7 @@ const Comment = () => {
             </div>
         </div>
         <div className="item">
-            <img src="/public/pokedex.png" alt="" />
+            <img src={Pokedex} alt="" />
             <div className="content">
             <button className="btn__proyect"><a href="https://pokemon-6uer.onrender.com" className='link__container'>{t("LINK2")}</a></button>
                 <h2>{t("TITLEPOKEDEX")}</h2>
@@ -97,7 +103,7 @@ const Comment = () => {
             </div>
         </div>
         <div className="item">
-            <img src="/public/rick y morty.png" alt="" />
+            <img src={RickYMorty} alt="" />
             <div className="content">
             <button className="btn__proyect"><a href="https://mick-and-morty.onrender.com" className='link__container'>{t("LINK3")}</a></button>
                 <h2 className='rickMorty'>{t("TITLERANDM")}</h2>
@@ -105,7 +111,7 @@ const Comment = () => {
             </div>
         </div>
         <div className="item">
-            <img src="/public/user crud.png" alt="" />
+            <img src={Users} alt="" />
             <div className="content">
               <button className="btn__proyect"><a href="https://user-crud-sddl.onrender.com" className='link__container'>{t("LINK4")}</a></button>
               <button className="btn__proyect"><a href="https://documenter.getpostman.com/view/33126947/2sA2rCUgih" className='link__container'>{t("LINK7")}</a></button>
@@ -114,7 +120,7 @@ const Comment = () => {
             </div>
         </div>
         <div className="item">
-            <img src="/public/hotel app.png" alt="" />
+            <img src={Hotel} alt="" />
             <div className="content">
               <button className="btn__proyect"><a href="https://boking.onrender.com" className='link__container'>{t("LINK5")}</a></button>
               <button className="btn__proyect"><a href="https://documenter.getpostman.com/view/33126947/2sA35D6jFU" className='link__container'>{t("LINK8")}</a></button>
@@ -131,37 +137,37 @@ const Comment = () => {
 
     <div  className="thunbnall">
         <div className="item active">
-            <img src="/public/clima.png" alt="" />
+            <img src={Clima} alt="" />
             <div className="content">
             {t("TITLETIME")}
             </div>
         </div>
         <div className="item">
-            <img src="/public/fortuna.png" alt="" />
+            <img src={Fortuna} alt="" />
             <div className="content">
             {t("TITLELUCK")}
             </div>
         </div>
         <div className="item">
-            <img src="/public/pokedex.png" alt="" />
+            <img src={Pokedex} alt="" />
             <div className="content">
             {t("TITLEPOKEDEX")}
             </div>
         </div>
         <div className="item">
-            <img src="/public/rick y morty.png" alt="" />
+            <img src={RickYMorty} alt="" />
             <div className="content">
             {t("TITLERANDM")}
             </div>
         </div>
         <div className="item">
-            <img src="/public/user crud.png" alt="" />
+            <img src={Users} alt="" />
             <div className="content">
             {t("TITLECRUD")}
             </div>
         </div>
         <div className="item">
-            <img src="/public/hotel app.png" alt="" />
+            <img src={Hotel} alt="" />
             <div className="content">
             {t("TITLEHOTEL")}
             </div>
