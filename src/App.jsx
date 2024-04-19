@@ -6,7 +6,6 @@ import Abaut from './pages/Abaut'
 import Comment from './pages/Comment'
 import Analytics from './pages/Analytics'
 import Product from './pages/Product'
-import ProductList from './pages/ProductList'
 import Sidebar from './components/Sidebar'
 import ProyectDos from './pages/ProyectDos'
 import './style/styleColors.css'
@@ -41,7 +40,6 @@ function App() {
         <Route path='/proyectos' element={<Comment/>}/>
         <Route path='/tecnologiasDos' element={<ProyectDos/>}/>
         <Route path='/contacto' element={<Product/>}/>
-        <Route path='/productList' element={<ProductList/>}/>
       </Routes>
       </Sidebar>
       </BrowserRouter>

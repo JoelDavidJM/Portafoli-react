@@ -2,14 +2,14 @@ import React from 'react';
 import './style/dashborad.css';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import Español from '../../public/Currículum Vitae Cv Español (1).pdf'
+import Español from '../../public/CurrículumEspañolCV.pdf'
 
 const Bubbles = () => {
   const {t} = useTranslation()
   return (
     <div className="bubbles">
       {[11, 12, 24, 10, 14, 23, 48, 16, 19, 20, 22, 25, 18, 21, 15, 43, 26, 17, 13, 28].map((i) => (
-        <span key={i} style={{ '--i': i }}> </span>
+        <span key={i} style={{ '--i': i }} > </span>
       ))}
     </div>
   );

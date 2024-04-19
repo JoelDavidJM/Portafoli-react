@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FaBars, FaUserAlt } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './style/sidebar.css'
