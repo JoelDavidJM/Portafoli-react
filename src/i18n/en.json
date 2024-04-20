@@ -1,16 +1,16 @@
 {   
     "SIDEBAR":"",
     "NAME1":"Start",
-    "NAME2":"Abaut me",
+    "NAME2":"About me",
     "NAME3":"Technologies",
     "NAME4":"Projects",
     "NAME5":"Contact",
     "ABAUTME1":"",
-    "ABAUTME":"Abaut me",
+    "ABAUTME":"About me",
     "DESCRIPTION":"Hello, I am Joel Játiva, a Full-Stack web developer with solid foundations in both frontend and backend, ready to start my career in a company that is willing to give me an opportunity. I have completed my studies in Full Stack Web Development at Academlo, where I acquired the necessary knowledge to excel in both front-end and back-end development. During my training, I gained skills in HTML, CSS, JavaScript, React.js, Git, Node.js, among others.",
-    "UNIQUE":"What me makes unique?",
+    "UNIQUE":"What makes me unique?",
     "TITLE1":"Versatility",
-    "TITLE2":"Pation",
+    "TITLE2":"Passion",
     "TITLE3":"Commitment",
     "TITLE4":"Innovative vision",
     "TITLE1 DESCRIPTION":"My training in dynamic technological environments has honed my capacity for versatility.",
@@ -18,7 +18,7 @@
     "TITLE3 DESCRIPTION":"I prioritize project objectives, ensure on-time delivery and pay attention to details.",
     "TITLE4 DESCRIPTION":"I am constantly looking for innovative strategies to address challenges.",
     "TECHNOLOGY1":"",
-    "TECHNOLOGY":"Technologys",
+    "TECHNOLOGY":"Technologies",
     "PREV":"Back to top",
     "SEEMORE":"See more technologies",
     "HTML":"The knowledge acquired in HTML was: Basic structure, Elements and tags, Images and multimedia, Lists, among others.",
@@ -62,7 +62,9 @@
     "CV":"",
     "TITLECV":"Full Stack Web Developer",
     "CONTACTME":"Contact me",
-    "DOWLOAND":"Download CV"
+    "DOWLOAND":"Download CV",
+    "CODE":"Code-Frontend",
+    "CODE1":"Code-Backend"
 }
 
 

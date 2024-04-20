@@ -10,7 +10,7 @@
     "DESCRIPTION":"Hola, soy Joel Játiva, un desarrollador web Full-Stack con sólidas bases tanto en frontend como en backend, listo para iniciar mi trayectoria en una empresa que esté dispuesta a brindarme una oportunidad. He completados mis estudios en Desarrollo Web Full Stack en Academlo, donde adquirí el conocimiento necesario para destacarme tanto en el desarrollo front-end como en el back-end. Durante mi formación, obtuve habilidades en HTML, CSS, JavaScript, React.js, Git, Node.js, entre otros.",
     "UNIQUE":"¿Qué me hace único?",
     "TITLE1":"Versatilidad",
-    "TITLE2":"Pación",
+    "TITLE2":"Pasión",
     "TITLE3":"Compromiso",
     "TITLE4":"Visión innovadora",
     "TITLE1 DESCRIPTION":"Mi formación en entornos tecnológicos dinámicos he perfeccionado mi capacidad de versatilidad.",
@@ -34,7 +34,7 @@
     "TIME":"En este proyecto se ha creado una aplicación que te permite visualizar el clima de tu ciudad. En ella, encontrarás información como la latitud, longitud y el tiempo actual en el que se encuentra tu ciudad, entre otros datos relevantes.",
     "LUCK":"En este proyecto, se desarrolló completamente utilizando React. Al ingresar a la aplicación, puedes visualizar tu fortuna, y al hacer clic en el botón, puedes cambiar tu suerte.",
     "POKEDEX":"En este proyecto, los usuarios podrán explorar diferentes Pokémon de la serie de Pokémon, junto con sus respectivos poderes y personalizaciones de personaje.",
-    "RANDM":"Esta aplicación ha sido creada exclusivamente con tecnologías de frontend. En ella, los usuarios pueden explorar diferentes personajes de la serie Rick y Morty ingresando un número del 1 al 105.",
+    "RANDM":"Esta aplicación ha sido creada exclusivamente con Tecnologías de frontend. En ella, los usuarios pueden explorar diferentes personajes de la serie Rick y Morty ingresando un número del 1 al 105.",
     "CRUD":"En este proyecto se ha desarrollado tanto el frontend como el backend, junto con una API para almacenar usuarios. A medida que se van creando usuarios, se almacenan en una base de datos dedicada. Además, la aplicación cuenta con su propio botón de registro para facilitar el proceso de inscripción.",
     "HOTEL":"Esta aplicación fue desarrollada desde cero, con la creación de su propio frontend para la visualización de hoteles. En el backend, se desarrolló una API personalizada para permitir la visualización de hoteles, así como funcionalidades adicionales como registro de usuarios, reseñas, y más.",
     "TITLETIME":"Clima",
@@ -62,7 +62,9 @@
     "CV":"",
     "TITLECV":"Desarrollador web Full Stack",
     "CONTACTME":"Contactame",
-    "DOWLOAND":"Descargar CV"
+    "DOWLOAND":"Descargar CV",
+    "CODE":"Código-Frontend",
+    "CODE1":"Código-Backend"
 }
 
 

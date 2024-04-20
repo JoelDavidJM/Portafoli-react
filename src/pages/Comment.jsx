@@ -82,6 +82,7 @@ const Comment = () => {
             <img src={Clima} alt="" /> 
             <div className="content">
                 <button className="btn__proyect"><a href="https://tiempo-climatico.onrender.com" className='link__container'>{t("LINK6")}</a></button>
+                <button className="btn__proyect"><a href="https://github.com/JoelDavidJM/Tiempo.git" className='link__container'>{t("CODE")}</a></button>                
                 <h2>{t("TITLETIME")}</h2>
                 <p>{t("TIME")}</p>
             </div>
@@ -90,6 +91,7 @@ const Comment = () => {
             <img src={Fortuna} alt="" />
             <div className="content">
             <button className="btn__proyect"><a href="https://proyecto-galleta.onrender.com" className='link__container'>{t("LINK1")}</a></button>
+            <button className="btn__proyect"><a href="https://github.com/JoelDavidJM/Galleta-Fortuna.git" className='link__container'>{t("CODE")}</a></button> 
                 <h2>{t("TITLELUCK")}</h2>
                 <p>{t("LUCK")}</p>
             </div>
@@ -98,6 +100,7 @@ const Comment = () => {
             <img src={Pokedex} alt="" />
             <div className="content">
             <button className="btn__proyect"><a href="https://pokemon-6uer.onrender.com" className='link__container'>{t("LINK2")}</a></button>
+            <button className="btn__proyect"><a href="https://github.com/JoelDavidJM/Pokedex.git" className='link__container'>{t("CODE")}</a></button>
                 <h2>{t("TITLEPOKEDEX")}</h2>
                 <p>{t("POKEDEX")}</p>
             </div>
@@ -106,6 +109,7 @@ const Comment = () => {
             <img src={RickYMorty} alt="" />
             <div className="content">
             <button className="btn__proyect"><a href="https://mick-and-morty.onrender.com" className='link__container'>{t("LINK3")}</a></button>
+            <button className="btn__proyect"><a href="https://github.com/JoelDavidJM/Rick-and-Morty.git" className='link__container'>{t("CODE")}</a></button>
                 <h2 className='rickMorty'>{t("TITLERANDM")}</h2>
                 <p>{t("RANDM")}</p>
             </div>
@@ -115,6 +119,8 @@ const Comment = () => {
             <div className="content">
               <button className="btn__proyect"><a href="https://user-crud-sddl.onrender.com" className='link__container'>{t("LINK4")}</a></button>
               <button className="btn__proyect"><a href="https://documenter.getpostman.com/view/33126947/2sA2rCUgih" className='link__container'>{t("LINK7")}</a></button>
+              <button className="btn__proyect"><a href="https://github.com/JoelDavidJM/user-CRUD-APP-frontend.git" className='link__container'>{t("CODE")}</a></button>
+              <button className="btn__proyect"><a href="https://github.com/JoelDavidJM/users-crud-API-backend.git" className='link__container'>{t("CODE1")}</a></button>
             <h2>{t("TITLECRUD")}</h2>
                 <p>{t("CRUD")}</p>
             </div>
@@ -124,6 +130,8 @@ const Comment = () => {
             <div className="content">
               <button className="btn__proyect"><a href="https://boking.onrender.com" className='link__container'>{t("LINK5")}</a></button>
               <button className="btn__proyect"><a href="https://documenter.getpostman.com/view/33126947/2sA35D6jFU" className='link__container'>{t("LINK8")}</a></button>
+              <button className="btn__proyect"><a href="https://github.com/JoelDavidJM/Hotels.git" className='link__container'>{t("CODE")}</a></button>
+              <button className="btn__proyect"><a href="https://github.com/JoelDavidJM/booking.git" className='link__container'>{t("CODE1")}</a></button>
             <h2>{t("TITLEHOTEL")}</h2>
                 <p>{t("HOTEL")}</p>
             </div>
