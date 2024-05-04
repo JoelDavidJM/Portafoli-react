@@ -118,10 +118,34 @@ main {
     margin-left: 1.2em;
 }
 
-@media only screen and (max-width: 870px){
-    .sidebar {
-        position: fixed;
-        z-index: 200;
+@media only screen and (max-width: 600px){
+    .container {
+        display: flex;
+        flex-direction: column;
     }
-    
+    .sidebar {
+        height: 3em;
+        width: 100% !important;
+        transition: all 0.8s;
+        display: flex;
+    }
+    .sidebar__div-icons {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        background-color: var(--sidebar);
+        gap: 0.7em;
+        align-content: center;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .top_section {
+        display: none;
+    }
+    .sidebar__choose__container {
+        display: flex;
+    }
+    .sidebar__media {
+        display: flex;
+    }
   }

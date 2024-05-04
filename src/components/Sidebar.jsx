@@ -70,7 +70,7 @@ const Sidebar = ({children}) => {
             </div>
           </div>
           <div className='sidebar__div-icons'>
-            <div>
+            <div className='sidebar__media'>
               {
             menuItem.map((item, index) => (
               <NavLink to={item.path} key={index} className={'link' || 'active'} >
