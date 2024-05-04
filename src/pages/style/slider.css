@@ -203,6 +203,7 @@ img {
 @media screen and (max-width: 678px) {
     .thunbnall {
         justify-content: start;
+        top: 70%;
     }
     
     .slider .list .item .content h2 {
@@ -211,11 +212,11 @@ img {
 
     .arrow {
         left: 10%;
-        top: 45%;
+        top: 60%;
     }
 
     .slider {
-        height: 93vh;
+        height: 100vh;
         position: relative;
         border-radius: 1em;
         overflow: hidden;

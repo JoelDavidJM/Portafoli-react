@@ -234,30 +234,16 @@ textarea {
     place-items: center;
 }
 .from__message {
-  height: 100px; 
-  resize: none;
-  display: block;
-  min-width: 300px;
-    width: 30px;
-  line-height: 1.5;
-  font-size: 14px;
-  margin-bottom: 2em;
-  border-radius: 1em;
+  min-width: 280px;
 }
 .form__name {
-  display: block;
-  min-width: 300px;
-    width: 30px;
-  line-height: 1.5;
-  font-size: 14px;
-  border-radius: 1em;
+  min-width: 280px;
+   
 }
 .form__email {
-  display: block;
-  min-width: 300px;
-    width: 30px;
-  line-height: 1.5;
-  font-size: 14px;
-  border-radius: 1em;
+  min-width: 280px;
+}
+input[type="submit"] {
+  min-width: 282px;
 }
 }
