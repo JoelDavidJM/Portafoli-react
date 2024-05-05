@@ -229,7 +229,8 @@ textarea {
   .contact__container {
     position: relative;
     width: 100%;
-    height: 93vh;
+    height: 100vh;
+    top: 2em;
     display: grid;
     place-items: center;
 }
