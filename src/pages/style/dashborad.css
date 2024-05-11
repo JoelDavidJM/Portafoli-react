@@ -179,11 +179,13 @@ a {
 
     .header h1 {
         font-size: 5em;
-        margin-top: -3em;
+        margin-top: 0.5em;
     }
 
     .header__h2 {
         font-size: 2em;
+        display: grid;
+        justify-content: center;
     }
 
     .div--contact {

@@ -64,7 +64,6 @@ const Sidebar = ({children}) => {
         <div style={{width: isOpen ? "10em" : "3em"}}className="sidebar sidebar1"  >
           <div className="top_section">
             <img style={{display: isOpen ? "block" : "none"}} className="logo" src={Photo} alt="" />
-            {/* <h1 style={{display: isOpen ? "block" : "none"}} className="logo">Logo</h1> */}
             <div style={{marginLeft: isOpen ? "20px" : "0px"}} id={contextTheme} className="bars">
               <FaBars onClick={toggle}/>
             </div>

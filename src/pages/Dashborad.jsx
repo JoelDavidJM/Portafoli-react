@@ -2,10 +2,11 @@ import React from 'react';
 import './style/dashborad.css';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import Español from '../../public/CurrículumEspañolCV.pdf'
+import DescargarCVEsp from '../../public/CurrículumEspañolCV.pdf';
+import DescargarCVEng from '../../public/CurrículumVitaeCvEnglish.pdf';
 
 const Bubbles = () => {
-  const {t} = useTranslation()
+  const { t } = useTranslation();
   return (
     <div className="bubbles">
       {[11, 12, 24, 10, 14, 23, 48, 16, 19, 20, 22, 25, 18, 21, 15, 43, 26, 17, 13, 28].map((i) => (
@@ -16,14 +17,15 @@ const Bubbles = () => {
 };
 
 const Dashboard = () => {
-
   const navigate = useNavigate(); 
 
   const handleHeader = () => {
     navigate('/contacto');
   };
 
-  const {t} = useTranslation()
+  const { t, i18n } = useTranslation();
+
+  const descargarCV = i18n.language === 'es' ? DescargarCVEsp : DescargarCVEng;
 
   return (
     <header id="home" className="header">
@@ -40,15 +42,13 @@ const Dashboard = () => {
       </h2>
       <div className="div--contact">
         <div onClick={handleHeader} id="contactMeBtn" className="div__a">
-          <span >{t('CONTACTME')}</span>
+          <span>{t('CONTACTME')}</span>
           <span className="material-symbols-outlined"><i className='bx bxs-phone'></i></span>
         </div>
         <a 
           className="div__a" 
           download 
-          href={Español} 
-          data-translate-es="Descargar CV" 
-          data-translate-en="Download CV"
+          href={descargarCV}
           id="downloadCV"
         >
           {t('DOWLOAND')}
