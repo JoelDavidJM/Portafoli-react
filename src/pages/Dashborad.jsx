@@ -2,8 +2,8 @@ import React from 'react';
 import './style/dashborad.css';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import DescargarCVEsp from '../../public/CurrículumEspañolCV.pdf';
-import DescargarCVEng from '../../public/CurrículumVitaeCvEnglish.pdf';
+import DescargarCVEsp from '../../public/EspañolCv.pdf';
+import DescargarCVEng from '../../public/InglishCv.pdf';
 
 const Bubbles = () => {
   const { t } = useTranslation();
